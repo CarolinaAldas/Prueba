@@ -20,6 +20,6 @@ document.getElementById('registroForm').addEventListener('submit', function (e) 
     localStorage.setItem("usuarioNombre", nombre);
   
     // Redirige a la página de bienvenida
-    window.location.href = "bienvenida.html";
+    window.location.href = "bienvenido.html";
   });
   
